@@ -78,9 +78,9 @@ print(f"my work place is {work_place}")
 #integers variables along with text
 num_of_students = 40
 print(f"your class has {num_of_students} students")
-age = "50"
+age = 50
 print(f"your age is {age}")
-quantity = "40"
+quantity = 40
 print(f"your oranges are {quantity}")
 
 
@@ -93,7 +93,7 @@ print(f"your oranges are {quantity}")
 
 # #booleans contains True or False
 # is_student = "True"
-# print(f"are you a student?: {is_student}")
+# print(f"are you a student? {is_student}")
 # for_sale = "False"
 # print(f"is this item for sale?{for_sale}")
 

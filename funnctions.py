@@ -13,9 +13,61 @@
 #     print()
 
 
+
 # happy_birthday( "Sydney", 28)
 # happy_birthday("Nathel",13)
 # happy_birthday("Anna", 29)
+
+
+# def subjets (heritage,mark):
+#     print(f'you passesd {heritage}')
+#     print(f"with  total point {mark}")
+#     print()
+
+# subjets("history", 70)
+
+# def greet(name):
+#     print(f"Hello, {name}!")
+#     print()
+# greet("Alice")   
+
+# def greet(name):
+#     print(f"hello {name}")
+# greet("Natasha")    
+
+
+# def happy_birthday(name):
+#     print(f"happy birthday {name}")
+# happy_birthday("Felistus")    
+
+
+###functions of 
+
+def add(a, b):
+    return a + b
+def add(a,b):
+    return a + b
+result = (5 + 4)
+print(result)
+
+
+
+def subtract(a, b):
+    return a - b
+print(3-2)
+
+
+
+
+###FUNCTIOS WITH DEFAULT PARAMETERS
+def greet(name="guest"):
+    print(f'Hello {name}')
+greet() 
+greet("Tanaka") 
+
+
+
+
 
 
 
@@ -101,10 +153,10 @@
 # outer()       
 
 #GLOBAL FUNCTION INSIDE THE LOCAL
-def global_function():
-    print('This is global function')
-global_function()    
+# def global_function():
+#     print('This is global function')
+# global_function()    
 
-def another_function():
-    global_function()
-another_function()   
+# def another_function():
+#     global_function()
+# another_function()
